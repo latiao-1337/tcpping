@@ -1,2 +1,2 @@
 # tcpping
-tcpping
+python tcpping.py
