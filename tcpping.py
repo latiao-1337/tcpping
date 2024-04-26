@@ -1,6 +1,8 @@
 import socket
 import time
 
+
+
 def tcp_ping(host, port):
     try:
         start_time = time.time()
@@ -13,7 +15,7 @@ def tcp_ping(host, port):
     finally:
         sock.close()
 
-host = '8.8.8.8'
-port = 53
+host = input("host:")
+port = int(input("port:"))
 
 tcp_ping(host, port)
